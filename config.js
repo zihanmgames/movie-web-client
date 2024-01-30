@@ -1,12 +1,12 @@
 window.__CONFIG__ = {
   // The URL for the CORS proxy, the URL must NOT end with a slash!
-  VITE_CORS_PROXY_URL: "CHANGEME",
+  VITE_CORS_PROXY_URL: "https://aesthetic-liger-690214.netlify.app",
 
   // The READ API key to access TMDB
-  VITE_TMDB_READ_API_KEY: "CHANGEME",
+  VITE_TMDB_READ_API_KEY: "6caaf5f45998e450e783bc63b9d46c88",
 
   // The DMCA email displayed in the footer, null to hide the DMCA link
-  VITE_DMCA_EMAIL: null,
+  VITE_DMCA_EMAIL: "tw31122007@tuta.io",
 
   // Whether to disable hash-based routing, leave this as false if you don't know what this is
   VITE_NORMAL_ROUTER: false,
