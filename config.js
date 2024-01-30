@@ -1,6 +1,6 @@
 window.__CONFIG__ = {
   // The URL for the CORS proxy, the URL must NOT end with a slash!
-  VITE_CORS_PROXY_URL: "https://aesthetic-liger-690214.netlify.app",
+  VITE_CORS_PROXY_URL: "https://aesthetic-liger-690214.netlify.app,https://movie-web-proxy.desmoscalc.me,https://movie-web-proxy.alegithomeworksite.com.au",
 
   // The READ API key to access TMDB
   VITE_TMDB_READ_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2Y2FhZjVmNDU5OThlNDUwZTc4M2JjNjNiOWQ0NmM4OCIsInN1YiI6IjY0ZTZlNmJhYzYxM2NlMDEyY2M0NWY3NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kNVfK69J_wLFxtDZDc3BBkiKDZmdLCf9RrVdKWuuu4k",
@@ -12,7 +12,7 @@ window.__CONFIG__ = {
   VITE_NORMAL_ROUTER: false,
 
   // The backend URL to communicate with, defaults to the movie-web hosted one at backend.movie-web.app
-  VITE_BACKEND_URL: "https://backend-production-d0aa.up.railway.app",
+  VITE_BACKEND_URL: "https://backend-production-d0aa.up.railway.app,https://movie-web-backend.desmoscalc.me",
 
   // A comma separated list of disallowed IDs in the case of a DMCA claim - in the format "series-<id>" and "movie-<id>"
   VITE_DISALLOWED_IDS: "",
