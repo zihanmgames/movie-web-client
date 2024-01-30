@@ -15,5 +15,8 @@ window.__CONFIG__ = {
   VITE_BACKEND_URL: null,
 
   // A comma separated list of disallowed IDs in the case of a DMCA claim - in the format "series-<id>" and "movie-<id>"
-  VITE_DISALLOWED_IDS: ""
+  VITE_DISALLOWED_IDS: "",
+
+  // If you want your users to be prompted with an onboarding screen before they start watching, enable this.
+  VITE_HAS_ONBOARDING: false
 };
